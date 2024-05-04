@@ -1,0 +1,105 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+    /* Fundo mais suave */
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #4682b4;
+    /* Azul suave para o cabeçalho */
+    color: #fff;
+    padding: 10px 20px;
+    /* Adiciona espaçamento interno */
+    border-radius: 0 0 20px 20px;
+    /* Adiciona border radius */
+    display: flex;
+    /* Exibe os elementos em uma linha */
+    justify-content: space-between;
+    /* Alinha os itens horizontalmente */
+    align-items: center;
+    /* Alinha os itens verticalmente */
+}
+
+header h1 {
+    margin: 0;
+    font-size: 36px;
+}
+
+nav {
+    margin-left: auto;
+    /* Move o nav para a direita */
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    /* Remove a margem padrão */
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+main {
+    padding-top: 20px;
+    padding-bottom: 100px;
+    /* Espaço para o footer */
+}
+
+article {
+    background-color: #fff;
+    /* Fundo branco para os artigos */
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+article h2 {
+    margin-top: 0;
+}
+
+article p {
+    line-height: 1.6;
+}
+
+article a {
+    display: inline-block;
+    background-color: #007bff;
+    /* Azul para os links */
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+article a:hover {
+    background-color: #0056b3;
+    /* Azul mais escuro ao passar o mouse */
+}
+
+footer {
+    background-color: #4682b4;
+    /* Azul suave para o footer */
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}

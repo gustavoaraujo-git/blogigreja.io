@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+    /* Fundo mais suave */
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+main {
+    padding-top: 20px;
+}
+
+article {
+    background-color: #fff;
+    /* Fundo branco para os artigos */
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+article h2 {
+    margin-top: 0;
+}
+
+article img {
+    display: block;
+    /* Para evitar espaços indesejados abaixo da imagem */
+    margin: 0 auto 20px;
+    /* Centraliza a imagem e adiciona espaço abaixo */
+    border-radius: 8px;
+    /* Adiciona bordas arredondadas à imagem */
+}
+
+article p {
+    line-height: 1.6;
+}
+
+.leia-mais {
+    display: inline-block;
+    background-color: #007bff;
+    /* Azul para o botão */
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.leia-mais:hover {
+    background-color: #0056b3;
+    /* Azul mais escuro ao passar o mouse */
+}
